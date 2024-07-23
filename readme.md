@@ -1,5 +1,5 @@
 
-# Technical Documentation for Machine Learning Model
+# This model is based on muliple classes classification
 
 ## Overview
 
@@ -63,13 +63,19 @@ The final model achieved a cross-validated accuracy of 98.49%. The best performi
 ## Visualizations
 
 **1. Feature Correlation Heatmap**
+![output2](https://github.com/user-attachments/assets/c1d84888-5624-4583-b2cd-26f43f927c72)
+
 _Description_: The heatmap displays the correlation coefficients between features. High correlations indicate a strong relationship between features, helping in feature selection and understanding multicollinearity.
 
+
 **2. Confusion Matrix**
+![output1](https://github.com/user-attachments/assets/2da57958-f530-4915-872a-6d37148a5836)
 
 _Description_: This plot shows the model’s performance on the testing set, comparing predicted vs. actual GPA values. It displays the number of true positives, true negatives, false positives, and false negatives.
 
+
 **3. Feature Importance**
+![output](https://github.com/user-attachments/assets/172b20da-e0be-40ad-80f0-9fda691961bf)
 
 _Description_: This bar chart ranks features based on their importance in predicting GPA. Features like study time, parental education, and extracurricular activities are shown to be significant predictors.
 
